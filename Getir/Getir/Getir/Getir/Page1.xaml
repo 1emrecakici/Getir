@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+             x:Class="Getir.Page1">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Button HeightRequest="40" WidthRequest="400" Text="Teslimat Adresini Belirle " TextTransform="None" HorizontalOptions="Start" BackgroundColor="White" TextColor="#525252" Margin="-5">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="location.png"></OnPlatform>
+                    </Button.Image>
+                </Button>
+            </StackLayout>
+            <StackLayout HeightRequest="190" Padding="5">
+                <CarouselView x:Name="ilkCarousel">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                    <ImageButton Source="{Binding .}"/>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Giriş yap veya kayıt ol" Margin="15" TextColor="#5d3ebc" HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+                <Button Text="Telefon numarası ile devam et" TextTransform="None" TextColor="#5d3ebc" FontSize="Medium" BackgroundColor="#ffd300" />
+
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Facebook ile devam et" TextTransform="None" TextColor="#3c5a99" FontSize="Medium" BackgroundColor="#transparent">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="facebook.png"></OnPlatform>
+                    </Button.Image>
+                </Button>
+                <Button Text="Getir şifresi ile devam et" TextTransform="None" TextColor="#5d3ebc" FontSize="Medium" BackgroundColor="#transparent">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource" Android="facebook.png"></OnPlatform>
+                    </Button.Image>
+                </Button>
+            </StackLayout>
+            <StackLayout>
+                <Label Text ="Kategori" TextTransform="None" TextColor="Black" FontSize="Medium" Margin="15"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

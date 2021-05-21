@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView" 
+              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+             x:Class="Getir.Page2">
+   
+        <ScrollView>
+        
+        <StackLayout>
+            <Image Background="#5d3ebc" Source="getiryemek.png" HeightRequest="60" />
+
+            <Button HeightRequest="40" WidthRequest="400" Text="Teslimat Adresini Belirle                                                     " TextTransform="None" HorizontalOptions="Start" BackgroundColor="White"  TextColor="Black">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="baseline_location_on_black_24.png"></OnPlatform>
+
+                </Button.Image>
+                
+            </Button>
+            <StackLayout HeightRequest="200" Padding="5">
+                <CarouselView x:Name="girisCarousel">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame CornerRadius="10" IsClippedToBounds="True" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                    <ImageButton Source="{Binding .}"/>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
+            
+                <Label Text="Adresine getiren restoranları gör" Margin="15" TextColor="#5d3ebc" HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+            <Frame WidthRequest="380" HorizontalOptions="Center"  CornerRadius="10" IsClippedToBounds="True" Padding="0" Margin="5">
+                    <SearchBar  Placeholder="Örn. Etiler mh." BackgroundColor="White" />
+                </Frame>
+                <Label Text="Giriş yap veya kayıt ol" Margin="15" TextColor="#5d3ebc" HorizontalOptions="Center" VerticalTextAlignment="Center" FontSize="Medium"/>
+            
+           
+            
+              
+            <Grid >
+               
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+               
+
+                <StackLayout >
+
+                    <StackLayout Grid.Row="0" Grid.Column="1"  VerticalOptions="Start" HorizontalOptions="Start" Padding="30">
+                        <combobox:SfComboBox  WidthRequest="100" HorizontalOptions="Center" HeightRequest="40" x:Name="comboBox" MaximumDropDownHeight="200" IsEditableMode="true">
+                            <combobox:SfComboBox.ComboBoxSource>
+                                <ListCollection:List x:TypeArguments="x:String">
+                                    <x:String>+90</x:String>
+                                    <x:String>+250</x:String>
+                                    <x:String>+48</x:String>
+                                    <x:String>+45</x:String>
+                                    <x:String>+52</x:String>
+                                    <x:String>+47</x:String>
+                                    <x:String>+128</x:String>
+                                    <x:String>+88</x:String>
+                                    <x:String>+95</x:String>
+                                    <x:String>+28</x:String>
+                                    <x:String>+25</x:String>
+                                    <x:String>+93</x:String>
+                                    <x:String>+75</x:String>
+                                    <x:String>+23</x:String>
+                                    <x:String>+74</x:String>
+                                    <x:String>+36</x:String>
+                                    <x:String>+91</x:String>
+                                </ListCollection:List>
+                            </combobox:SfComboBox.ComboBoxSource>
+                        </combobox:SfComboBox>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="0" >
+                        <Entry  Placeholder="" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+                    
+            
+
+            <StackLayout>
+                <Button WidthRequest="380" HorizontalOptions="Center" FontSize="Medium" Text="Telefon Numarasıyla Devam Et" Background="#ffd300" TextColor="#5d3ebc" TextTransform="None"></Button>
+                <Button WidthRequest="380" HorizontalOptions="Center" HeightRequest="50" FontSize="Medium"  Text="           Facebook İle Devam Et            " TextTransform="None"  BackgroundColor="#transparent"  TextColor="#3c5a99">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="facebook.png"></OnPlatform>
+
+                </Button.Image>
+
+            </Button>
+            </StackLayout>
+            
+            <StackLayout>
+                <Button WidthRequest="380" HorizontalOptions="Center" HeightRequest="50" FontSize="Medium"  Text="           Facebook İle Devam Et            " TextTransform="None"  BackgroundColor="#transparent"  TextColor="#3c5a99">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="facebook.png"></OnPlatform>
+
+                </Button.Image>
+
+            </Button>
+        </StackLayout>
+           
+            <StackLayout>
+                <flv:FlowListView FlowColumnCount="2"  
+                SeparatorVisibility="Default"  
+                HasUnevenRows="True"
+                FlowItemTappedCommand="{Binding ItemTappedCommand}"  
+                FlowItemsSource="{Binding Items}"
+                BackgroundColor="White">
+                    <flv:FlowListView.FlowColumnTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="white" Margin="5">
+                                <StackLayout>
+                                    <Image Source="{Binding ImageSource}"/>
+                                    <Label HorizontalOptions="Fill" TextColor="#525252" XAlign="Center" YAlign="Center" Text="{Binding ÜrünKategorisi}"/>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </flv:FlowListView.FlowColumnTemplate>
+                </flv:FlowListView>
+            </StackLayout>
+            <StackLayout>
+                <Button BackgroundColor="White" HeightRequest="400" WidthRequest="400">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="altresim.png"></OnPlatform>
+
+                    </Button.Image>
+
+                </Button>
+                <Button BackgroundColor="White" HeightRequest="400" WidthRequest="400">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="altresim.png"></OnPlatform>
+
+                    </Button.Image>
+
+                </Button>
+                <Button BackgroundColor="White" HeightRequest="400" WidthRequest="400">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                Android="altresim.png"></OnPlatform>
+
+                    </Button.Image>
+
+                </Button>
+            </StackLayout>
+
+        </StackLayout>
+        </ScrollView>
+  
+</ContentPage>

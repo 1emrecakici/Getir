@@ -1,0 +1,120 @@
+<StackLayout>
+                    <Grid>
+                        <ImageButton Source="kuzeyden.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="kızılayAfyonkarahisar.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="rufflesOriginals.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="₺2,75" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="₺6,85" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="₺7,75" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="Kuzeyden" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="Kızılay Afyonkarahisar" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="Ruffles Original" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="1.5 L" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="6 x 200 ml" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="150 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="ülkerSütlü.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="tadımYerFıstıklı.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="magnumBadem.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="₺5,35" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="₺2,30" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="₺7,00" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="Ülker Sütlü" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="Tadım Yer Fıstıklı" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="Magnum Badem" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="60 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="30 g" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="100 ml" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="unoTostEkmeği.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="unoTamBuğdaylıEkmek.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="cpBüyükBoy.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="₺5,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="₺9,75" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="₺18,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="UNO Tost Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="UNO Tam Buğdaylı Ekmek" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="CP Büyük Boy" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="350 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="350 g" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="15'li" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="sütaşSüzmePeynir.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="AnkaraBurma.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="jambonÇedarMega.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="₺20,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="₺3,95" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="₺24,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="Sütaş Süzme Peynir" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="Nuh'un Ankara Burgu" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="Jambon Cheddar Mega" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="230 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="patates.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="kokteylDomates.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="domestos.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="₺9,5" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="₺7,95" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="₺8,45" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="Patates" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="Kokteyl Domates" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="Domestos Dağ Esintisi" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Grid>
+                        <Label Text="2 kg" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="500 g" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="750 ml" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="antibakteriyelSıvıSabun.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                        <ImageButton HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                    </Grid>
+                    <Label Text="₺17,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start"/>
+                    <Label Text="Antibakteriyel Sıvı Sabun" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Start"/>
+                    <Label Text="700 ml" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Start"/>
+                </StackLayout>

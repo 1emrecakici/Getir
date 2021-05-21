@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Getir.Views.KaydolPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Kayıt Ol" HorizontalOptions="Center" TextColor="#5d3ebc" Margin="15" FontSize="Medium"/>
+            <Button Text="Facebook ile Kayıt Ol" Margin="5" TextTransform="None" TextColor="#3c5a99" FontSize="Medium" BackgroundColor="#transparent">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource" Android="facebook.png"></OnPlatform>
+                </Button.Image>
+            </Button>
+            <StackLayout Margin="15">
+                <Entry Placeholder="UserName" x:Name="EntryUserName"/>
+
+                <Entry Placeholder="Password" x:Name="EntryUserPassword" IsPassword="True"/>
+            </StackLayout>
+            <StackLayout Margin="15">
+                <Label Text="*Şifre en az 7 karakter olmalıdır ve özel karakter içermemelidir" TextColor="#697488" TextTransform="None"/>
+            </StackLayout>
+            <StackLayout Margin="15">
+                <Grid>
+                    <CheckBox IsChecked="True" Color="#5d3ebc"  Grid.Column="0" Grid.Row="0"/>
+                    <Label Text="Getir'in bana özel kampanya, tanıtım ve fırsatlarından haberdar olmak istiyorum." Grid.Column="1" Grid.Row="0" TextTransform="None"/>
+
+                </Grid>
+            </StackLayout>
+            <StackLayout Margin="15">
+                <Label Text="Kayıt olmakla Kullanım Koşulları'nı onaylamış oluyorsunuz." TextColor="#697488" TextTransform="None"/>
+                <Label Text="Kişisel verilerinize dair Aydınlatma Metni için tıklayınız." TextColor="#697488" TextTransform="None"/>
+            </StackLayout>
+            <StackLayout Margin="15">
+                <Button Margin="15" VerticalOptions="Center" BackgroundColor="#5d3ebc" Text="Kayıt Ol" TextTransform="None" Clicked="Handle_Clicked"  />
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

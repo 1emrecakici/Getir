@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Getir.Views.UrunSayfalari.indirimlerPage"
+             Title="                        getir">
+    <ScrollView>
+        <StackLayout BackgroundColor="White">
+            <StackLayout BackgroundColor="#7849f7">
+                <ScrollView Orientation="Horizontal">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="45"/>
+                        </Grid.RowDefinitions>
+                        <ImageButton Source="yeniUrunler.jpg" Clicked="yeniUrunler_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                        <ImageButton Source="indirimler.jpg" Clicked="indirimler_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                        <ImageButton Source="meyveSebze.jpg" Clicked="meyveSebze_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                        <ImageButton Source="icecek.jpg" Clicked="icecek_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="3" Grid.Row="0" />
+                        <ImageButton Source="firindan.jpg" Clicked="firindan_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="4" Grid.Row="0" />
+                        <ImageButton Source="temelGida.jpg" Clicked="temelGida_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="5" Grid.Row="0" />
+                        <ImageButton Source="atistirmalik.jpg" Clicked="atistirmalik_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="6" Grid.Row="0" />
+                        <ImageButton Source="dondurma.jpg" Clicked="dondurma_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="7" Grid.Row="0" />
+                        <ImageButton Source="yiyecek.jpg" Clicked="yiyecek_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="8" Grid.Row="0" />
+                        <ImageButton Source="kahvalti.jpg" Clicked="kahvalti_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="9" Grid.Row="0" />
+                        <ImageButton Source="form.jpg" Clicked="form_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="10" Grid.Row="0" />
+                        <ImageButton Source="kisiselBakim.jpg" Clicked="kisiselBakim_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="11" Grid.Row="0" />
+                        <ImageButton Source="evBakim.jpg" Clicked="evBakim_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="12" Grid.Row="0" />
+                        <ImageButton Source="yasam.jpg" Clicked="yasam_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="13" Grid.Row="0" />
+                        <ImageButton Source="teknoloji.jpg" Clicked="meyveSebze_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="14" Grid.Row="0" />
+                        <ImageButton Source="hayvan.jpg" Clicked="hayvan_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="15" Grid.Row="0" />
+                        <ImageButton Source="bebek.jpg" Clicked="bebek_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="16" Grid.Row="0" />
+                        <ImageButton Source="cinselSaglik.jpg" Clicked="cinselSaglik_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="17" Grid.Row="0" />
+                        <ImageButton Source="giyim.jpg" Clicked="meyveSebze_Clicked" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="18" Grid.Row="0" />
+
+                    </Grid>
+                </ScrollView>
+            </StackLayout>
+            <StackLayout>
+                <Button BackgroundColor="#7849f7" Text="İndirimler" HorizontalOptions="Start" Margin="5" />
+            </StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+
+                    <ImageButton Source="polonezPastirma.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <ImageButton Source="hertaneZeytin.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <ImageButton Source="ramazankolisi.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="₺18,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="₺33,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="₺99,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Polonez Çemensiz Pastırma" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="Hertane Kuru Sele Zeytin" TextTransform="None" TextColor="Black" HorizontalOptions="Center" Margin="5" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="Ramazan Kolisi" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="75 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="285 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="19 Ürün" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <ImageButton Source="cocoPops.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <ImageButton Source="unoGurmeHamburger.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <ImageButton Source="unoGurmeSandvic.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="₺19,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="₺12,45" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="₺11,75" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Coco Pops Şenlik Paketi" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="Uno Gurme Hamburger Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="Uno Gurme Sandviç Ekmeği" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="4 Ürün" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="4'lü" TextTransform="None" TextColor="#697488" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
+                    <Label Text="5'li" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="120"/>
+                    </Grid.RowDefinitions>
+                    <ImageButton Source="muhallebiBoyoz.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <ImageButton Source="danetteMozaik.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <ImageButton Source="danetteMagnolet.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="₺29,95" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="₺4,60" TextTransform="None" TextColor="Black" Margin="5" Grid.Column="1" HorizontalOptions="Center" Grid.Row="0" />
+                    <Label Text="₺4,60" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Muhallebili Boyoz" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="Danette Mix Joy Mozaik" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="Danette Mix Joy Magnolet" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="6'lı" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                    <Label Text="100 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="100 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                </Grid>
+            </StackLayout>
+            
+            <StackLayout BackgroundColor="White">
+                <Label Margin="15"  Text=" Getir'i indirin!" TextColor="#5d3ebc" FontSize="Large"/>
+
+                <ImageButton Margin="10" Source="AppStore.jpg" HorizontalOptions="Start" VerticalOptions="Start"/>
+                <ImageButton Margin="10" Source="GooglePlay.jpg" HorizontalOptions="Start" VerticalOptions="Start"/>
+                <ImageButton Margin="10" Source="AppGallery.jpg" HorizontalOptions="Start" VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Getir'i keşfedin" BackgroundColor="White" HorizontalOptions="Start" TextTransform="None" Margin="5" TextColor="#5d3ebc" FontSize="Medium"/>
+                <Button Text="Yardıma mı ihtiyacınız var?" BackgroundColor="White" HorizontalOptions="Start" TextTransform="None" Margin="5" TextColor="#5d3ebc" FontSize="Medium"/>
+                <Button Text="İş ortağımız olmak ister misiniz?" BackgroundColor="White" HorizontalOptions="Start" TextTransform="None" Margin="5" TextColor="#5d3ebc" FontSize="Medium"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

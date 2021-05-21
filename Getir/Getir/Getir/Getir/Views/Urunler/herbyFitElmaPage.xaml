@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Getir.Views.Urunler.herbyFitElmaPage">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout>
+                <ImageButton Source="favoriler.jpg" HorizontalOptions="Start" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="herbyFitElma.jpg" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="1" x:Name="Label1" HorizontalOptions="Center" BackgroundColor="#7849f7" TextColor="white" FontSize="Large"/>
+            </StackLayout>
+            <StackLayout>
+                <Stepper Maximum="10" Minimum="1" HorizontalOptions="Center" ValueChanged="Stepper_OnValueChanged"/>
+            </StackLayout>
+            <StackLayout Margin="25" >
+                <Label Text="Herby Fit Tea Elme Sirkeli Ananas Diyet Çayı" TextTransform="None" TextColor="#7849f7" FontSize="Large" />
+                <Label Text="20'li" TextColor="#697488" FontSize="Body"/>
+                <Label Text="Elma sirkesi ve ananaslı diyete destek çayı" TextColor="black" FontSize="Body"/>
+                <Label Text="İçindekiler: elma sirkesi, ananas suyu, yeşil çay, mate, biberiye, zencefil, limon kabuğu, limon otu, rezene meyan kökü, elma, doğal ananas aroması" TextColor="Black" FontSize="Body"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
+                    <Button BackgroundColor="#7849f7" Text="Sepete Ekle" Margin="5" Grid.Column="0" Grid.Row="0"></Button>
+                    <Label FontSize="Medium" HorizontalOptions="Center" Margin="10" Grid.Column="1" Grid.Row="0" Text="₺17,90    "></Label>
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
