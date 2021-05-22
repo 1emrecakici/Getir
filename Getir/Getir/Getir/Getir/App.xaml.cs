@@ -16,9 +16,10 @@ namespace Getir
            
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
-            FlowListView.Init();
+            /* DependencyService.Register<MockDataStore>();
+             MainPage = new AppShell();
+             FlowListView.Init();*/
+            MainPage = new NavigationPage(new SettingsPage());
         }
 
         protected override void OnStart()

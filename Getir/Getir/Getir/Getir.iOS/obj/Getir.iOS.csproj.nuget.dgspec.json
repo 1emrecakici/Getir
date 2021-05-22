@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj": {}
+    "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj": {
+    "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj",
         "projectName": "Getir.iOS",
-        "projectPath": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj",
+        "projectPath": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir.iOS\\Getir.iOS.csproj",
         "packagesPath": "C:\\Users\\emrem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir.iOS\\obj\\",
+        "outputPath": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\Getir.csproj": {
-                "projectPath": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\Getir.csproj"
+              "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\Getir.csproj": {
+                "projectPath": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\Getir.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\Getir.csproj": {
+    "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\Getir.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\Getir.csproj",
+        "projectUniqueName": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\Getir.csproj",
         "projectName": "Getir",
-        "projectPath": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\Getir.csproj",
+        "projectPath": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\Getir.csproj",
         "packagesPath": "C:\\Users\\emrem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emrem\\Desktop\\Getir (1)\\Getir\\Getir\\Getir\\obj\\",
+        "outputPath": "C:\\Users\\emrem\\Documents\\GitHub\\Getir\\Getir\\Getir\\Getir\\Getir\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -122,6 +122,10 @@
               "target": "Package",
               "version": "[2.0.11, )"
             },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -149,6 +153,14 @@
               "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
+            "Xamarin.Forms.Visual.Material": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
             },

@@ -13,6 +13,13 @@ namespace Getir.ViewModels
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
         bool isBusy = false;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string name = null) =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+        
         public bool IsBusy
         {
             get { return isBusy; }
@@ -39,7 +46,8 @@ namespace Getir.ViewModels
             return true;
         }
 
-        #region INotifyPropertyChanged
+
+       /* #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
@@ -49,6 +57,6 @@ namespace Getir.ViewModels
 
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        #endregion
+        #endregion*/
     }
 }
