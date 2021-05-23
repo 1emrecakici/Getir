@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Getir.Views.GirisPage.xaml", "Views/GirisPage.xaml", typeof(global::Getir.Views.GirisPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Getir.Views.ProductsView.xaml", "Views/ProductsView.xaml", typeof(global::Login.Views.ProductsView))]
 
-namespace Getir.Views {
+namespace Login.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\GirisPage.xaml")]
-    public partial class GirisPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ProductsView.xaml")]
+    public partial class ProductsView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GirisPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ProductsView));
         }
     }
 }

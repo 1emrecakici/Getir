@@ -1,10 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helpers="clr-namespace:Getir.Helpers"
+             xmlns:vm ="clr-namespace:Getir.ViewModels"
+             
              x:Class="Getir.Views.ProductView">
+    <ContentPage.BindingContext>
+        <vm:ProductsViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Product View"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"/>
+                </Grid.RowDefinitions>
+
+                <ImageButton Source="polonezPastirma.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                <ImageButton Source="hertaneZeytin.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                <ImageButton Source="herbyFitElma.jpg" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Label Text="₺18,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                <Label Text="₺33,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                <Label Text="₺17,90" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                </Grid.RowDefinitions>
+                <Label Text="Polonez Çemensiz Pastırma" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                <Label Text="Hertane Kuru Sele Zeytin" TextTransform="None" TextColor="Black" HorizontalOptions="Center" Margin="5" Grid.Column="1" Grid.Row="0" />
+                <Label Text="Herby Fit Elma Sirkeli Ananaslı" TextTransform="None" TextColor="Black" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <Label Text="75 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                <Label Text="285 g" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0" />
+                <Label Text="20'li" TextTransform="None" TextColor="#697488" Margin="5" HorizontalOptions="Center" Grid.Column="2" Grid.Row="0" />
+            </Grid>
+        
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

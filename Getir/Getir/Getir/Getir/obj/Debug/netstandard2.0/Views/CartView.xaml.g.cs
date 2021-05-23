@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Getir.Views.GirisPage.xaml", "Views/GirisPage.xaml", typeof(global::Getir.Views.GirisPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Getir.Views.CartView.xaml", "Views/CartView.xaml", typeof(global::Getir.Views.CartView))]
 
 namespace Getir.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\GirisPage.xaml")]
-    public partial class GirisPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CartView.xaml")]
+    public partial class CartView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GirisPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CartView));
         }
     }
 }

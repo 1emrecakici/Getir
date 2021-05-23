@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using DLToolkit.Forms.Controls;
 using System.IO;
+using Xamarin.Essentials;
 
 namespace Getir
 {
@@ -16,10 +17,20 @@ namespace Getir
            
             InitializeComponent();
 
-            /* DependencyService.Register<MockDataStore>();
+             DependencyService.Register<MockDataStore>();
              MainPage = new AppShell();
-             FlowListView.Init();*/
-            MainPage = new NavigationPage(new SettingsPage());
+             FlowListView.Init();
+
+           /* string uname = Preferences.Get("Username", String.Empty);
+            if(String.IsNullOrEmpty(uname))
+            {
+                MainPage = new AboutPage();
+            }
+            else
+            {
+                MainPage = new ProductView();
+            }
+            */
         }
 
         protected override void OnStart()

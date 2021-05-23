@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:Getir.ViewModels" x:DataType="viewmodels:LoginViewModel"
              x:Class="Getir.Views.KaydolPage">
+    <ContentPage.BindingContext>
+        <viewmodels:LoginViewModel/>
+    </ContentPage.BindingContext>
     <ScrollView>
         <StackLayout>
             <Label Text="Kayıt Ol" HorizontalOptions="Center" TextColor="#5d3ebc" Margin="15" FontSize="Medium"/>
@@ -11,9 +14,9 @@
                 </Button.Image>
             </Button>
             <StackLayout Margin="15">
-                <Entry Placeholder="UserName" x:Name="EntryUserName"/>
+                <Entry Placeholder="Enter Username" Text="{Binding Username}"></Entry>
 
-                <Entry Placeholder="Password" x:Name="EntryUserPassword" IsPassword="True"/>
+                <Entry Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True"></Entry>
             </StackLayout>
             <StackLayout Margin="15">
                 <Label Text="*Şifre en az 7 karakter olmalıdır ve özel karakter içermemelidir" TextColor="#697488" TextTransform="None"/>
@@ -30,7 +33,7 @@
                 <Label Text="Kişisel verilerinize dair Aydınlatma Metni için tıklayınız." TextColor="#697488" TextTransform="None"/>
             </StackLayout>
             <StackLayout Margin="15">
-                <Button Margin="15" VerticalOptions="Center" BackgroundColor="#5d3ebc" Text="Kayıt Ol" TextTransform="None" Clicked="Handle_Clicked"  />
+                <Button  Command="{Binding RegisterCommand}"  Margin="15" VerticalOptions="Center" BackgroundColor="#5d3ebc" Text="Kayıt Ol" TextTransform="None"  />
 
             </StackLayout>
         </StackLayout>

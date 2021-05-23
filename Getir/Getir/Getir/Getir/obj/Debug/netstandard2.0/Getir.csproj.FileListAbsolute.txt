@@ -173,3 +173,6 @@ C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstand
 C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\Getir.dll
 C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\ref\Getir.dll
 C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\Getir.pdb
+C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\CartView.xaml.g.cs
+C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\LogoutView.xaml.g.cs
+C:\Users\emrem\Documents\GitHub\Getir\Getir\Getir\Getir\Getir\obj\Debug\netstandard2.0\Views\ProductsView.xaml.g.cs

@@ -1,4 +1,6 @@
-﻿using Getir.ViewModels;
+﻿
+
+using Getir.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
